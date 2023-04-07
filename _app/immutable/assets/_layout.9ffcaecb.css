@@ -1,0 +1,13 @@
+header.svelte-1a6y259{padding:1rem;background:lightskyblue;display:flex;flex-wrap:wrap;justify-content:space-between}ul.svelte-1a6y259{margin:0;list-style-type:none;display:flex;gap:1rem}a.svelte-1a6y259{text-decoration:none;color:inherit}/* style.css */
+body {
+  margin: 0;
+  background: #eee;
+  color: #333;
+  font-family: sans-serif;
+}
+
+main {
+  padding: 1rem;
+  margin: 2rem auto;
+  max-width: 40rem;
+}
