@@ -63,4 +63,4 @@ main {
   src: url('/_app/immutable/assets/poppins-latin-700-normal.9338e65f.woff2') format('woff2'), url('/_app/immutable/assets/poppins-all-700-normal.282b1ac4.woff') format('woff');
   unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
 }
-footer.svelte-1doasj7{padding:2rem;margin:0px;position:absolute;bottom:0}div.svelte-1doasj7{padding:0 2rem 0 2rem;margin:0px;padding:2rem;width:100%;height:100%}
+body{padding:0;margin:0;height:100%;width:100%;display:flex;flex-direction:column}html{padding:0;margin:0;height:100%;width:100%}div.content.svelte-18n8l7z{flex-grow:1;padding:2rem 0rem 0rem 2rem}
