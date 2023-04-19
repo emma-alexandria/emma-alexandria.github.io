@@ -5,24 +5,47 @@
     <link rel="icon" href="../favicon.png" />
     <meta name="viewport" content="width=device-width" />
     <meta http-equiv="content-security-policy" content="">
-		<link href="../_app/immutable/assets/_layout.25fda7bc.css" rel="stylesheet">
-		<link href="../_app/immutable/assets/blogLayout.8d85c4bd.css" rel="stylesheet">
-		<link href="../_app/immutable/assets/TagDisplay.404d7ee3.css" rel="stylesheet">
-		<link rel="modulepreload" href="../_app/immutable/entry/start.d10e505a.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/index.ecb6a67f.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/singletons.4b3c02aa.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/index.be2c66fe.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/paths.66c38784.js">
-		<link rel="modulepreload" href="../_app/immutable/entry/app.1db11272.js">
+		<link href="../_app/immutable/assets/_layout.db662768.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/blogLayout.8186ae88.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/md-img.88283e5a.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/TagDisplay.90c6db40.css" rel="stylesheet">
+		<link rel="modulepreload" href="../_app/immutable/entry/start.ff299a31.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index.6afb8bef.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons.4c72aa6d.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index.6e5dcf29.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/paths.bdcc1ddf.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/app.3f26db23.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/preload-helper.41c905a7.js">
-		<link rel="modulepreload" href="../_app/immutable/entry/_layout.svelte.09f34f0e.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/stores.b2c3f866.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/index.c1bd7b6e.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/_layout.svelte.a4803f09.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/stores.4f8b7d9e.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index.488ef68b.js">
 		<link rel="modulepreload" href="../_app/immutable/entry/_layout.js.de5a3f7b.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/_layout.60fe7920.js">
-		<link rel="modulepreload" href="../_app/immutable/entry/blog-_slug_-page.svelte.2580dcf6.js">
-		<link rel="modulepreload" href="../_app/immutable/entry/blog-_slug_-page.js.e0a25c9f.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/_page.aaa490bb.js"><title>Web3 is a marketing campaign trying to convince you that crypto doesn't suck</title><!-- HEAD_svelte-oh8knx_START --><meta type="description" text="Web3 is not the future of the web - but it is a small part of it."><!-- HEAD_svelte-oh8knx_END -->
+		<link rel="modulepreload" href="../_app/immutable/entry/blog-_slug_-page.svelte.6d9acb15.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/blog-_slug_-page.js.679131ab.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_page.55e6eccc.js"><title>Web3 is a marketing campaign trying to convince you that crypto doesn't suck</title><!-- HEAD_svelte-mekbs2_START --><script>//slightly ugly, but needs to be put in head in order to load theme before body. this means no svelte niceties
+        if (document) {
+            let preference = localStorage.theme;
+
+            let prefersDark = window.matchMedia(
+                "(prefers-color-scheme: dark)"
+            ).matches;
+
+            if (preference === null) {
+                preference = prefersDark ? "dark" : "light";
+            }
+
+            if (preference === "dark") {
+                document.documentElement.classList.remove("light");
+                document.documentElement.classList.add("dark");
+                localStorage.theme = "dark";
+            } else {
+                document.documentElement.classList.remove("dark");
+                document.documentElement.classList.add("light");
+                localStorage.theme = "light";
+            }
+        }
+    </script><!-- HEAD_svelte-mekbs2_END --><!-- HEAD_svelte-oh8knx_START --><meta type="description" text="Web3 is not the future of the web - but it is a small part of it."><!-- HEAD_svelte-oh8knx_END -->
   </head>
   <body data-sveltekit-preload-data="hover">
     <div style="display: contents">
@@ -30,93 +53,96 @@
 
 
 
+<div class="grid-container svelte-adx4fm"><div class="header svelte-adx4fm"><nav class="svelte-p7aheg"><ul class="svelte-p7aheg"><li class="svelte-p7aheg"><a href="/"><img src="/logo.svg" alt="Personal logo of Emma Alexandria" class="svelte-p7aheg"></a></li>
+    <li class="svelte-1qjeb0d"><a href="/blog" class="svelte-1qjeb0d">Blog</a>
+</li>
+    <li class="svelte-1qjeb0d"><a href="/projects" class="svelte-1qjeb0d">Projects</a>
+</li>
+    <li class="svelte-1qjeb0d"><a href="/about" class="svelte-1qjeb0d">About</a>
+</li>
+    <div class="end-aligned svelte-p7aheg"><li class="svelte-1qjeb0d"><a href="/contact" class="svelte-1qjeb0d">Contact</a>
+</li>
+      <div class="toggle svelte-p7aheg">
 
-
-<div class="grid-container svelte-ua5wkf"><div class="header svelte-ua5wkf"><nav class="svelte-1n46dtg"><ul class="svelte-1n46dtg"><li class="svelte-1n46dtg"><a href="/"><img src="/logo.svg" alt="Personal logo of Emma Alexandria" class="svelte-1n46dtg"></a></li>
-    <li class="svelte-1r212j5"><a href="/blog" class="svelte-1r212j5">Blog</a>
-</li>
-    <li class="svelte-1r212j5"><a href="/projects" class="svelte-1r212j5">Projects</a>
-</li>
-    <li class="svelte-1r212j5"><a href="/about" class="svelte-1r212j5">About</a>
-</li>
-    <li class="svelte-1r212j5"><a href="/contact" class="svelte-1r212j5">Contact</a>
-</li></ul>
+<button class="svelte-y4w44a"><div class="icon svelte-y4w44a">
+        <div class="item svelte-y4w44a"><svg viewBox="0 0 24 24" width="1.2em" height="1.2em" style="font-size: 1.5em"><!-- HTML_TAG_START --><path fill="currentColor" d="M12 17q-2.075 0-3.538-1.463T7 12q0-2.075 1.463-3.538T12 7q2.075 0 3.538 1.463T17 12q0 2.075-1.463 3.538T12 17ZM2 13q-.425 0-.713-.288T1 12q0-.425.288-.713T2 11h2q.425 0 .713.288T5 12q0 .425-.288.713T4 13H2Zm18 0q-.425 0-.713-.288T19 12q0-.425.288-.713T20 11h2q.425 0 .713.288T23 12q0 .425-.288.713T22 13h-2Zm-8-8q-.425 0-.713-.288T11 4V2q0-.425.288-.713T12 1q.425 0 .713.288T13 2v2q0 .425-.288.713T12 5Zm0 18q-.425 0-.713-.288T11 22v-2q0-.425.288-.713T12 19q.425 0 .713.288T13 20v2q0 .425-.288.713T12 23ZM5.65 7.05L4.575 6q-.3-.275-.288-.7t.288-.725q.3-.3.725-.3t.7.3L7.05 5.65q.275.3.275.7t-.275.7q-.275.3-.687.288T5.65 7.05ZM18 19.425l-1.05-1.075q-.275-.3-.275-.713t.275-.687q.275-.3.688-.287t.712.287L19.425 18q.3.275.288.7t-.288.725q-.3.3-.725.3t-.7-.3ZM16.95 7.05q-.3-.275-.288-.687t.288-.713L18 4.575q.275-.3.7-.288t.725.288q.3.3.3.725t-.3.7L18.35 7.05q-.3.275-.7.275t-.7-.275ZM4.575 19.425q-.3-.3-.3-.725t.3-.7l1.075-1.05q.3-.275.712-.275t.688.275q.3.275.288.688t-.288.712L6 19.425q-.275.3-.7.288t-.725-.288Z"/><!-- HTML_TAG_END --></svg></div></div>
+</button></div></div></ul>
 </nav></div>
 
-  <div class="content svelte-ua5wkf">
+  <div class="content svelte-adx4fm">
 
-<article class="svelte-nkifs9"><h1 class="title svelte-nkifs9">Web3 is a marketing campaign trying to convince you that crypto doesn't suck</h1>
-  <ul class="svelte-1sevx7m"><li class="tag svelte-1sevx7m"><a href="/blog/tags/opinion" class="svelte-1sevx7m">#opinion</a>
-    </li><li class="tag svelte-1sevx7m"><a href="/blog/tags/webdev" class="svelte-1sevx7m">#webdev</a>
-    </li><li class="tag svelte-1sevx7m"><a href="/blog/tags/future" class="svelte-1sevx7m">#future</a>
-    </li><li class="tag svelte-1sevx7m"><a href="/blog/tags/crypto" class="svelte-1sevx7m">#crypto</a>
+<article class="svelte-1q7bpyk"><h1 class="title svelte-1q7bpyk">Web3 is a marketing campaign trying to convince you that crypto doesn't suck</h1>
+  <ul class="svelte-1tr2f1g"><li class="tag svelte-1tr2f1g"><a href="/blog/tags/opinion" class="svelte-1tr2f1g">#opinion</a>
+    </li><li class="tag svelte-1tr2f1g"><a href="/blog/tags/webdev" class="svelte-1tr2f1g">#webdev</a>
+    </li><li class="tag svelte-1tr2f1g"><a href="/blog/tags/future" class="svelte-1tr2f1g">#future</a>
+    </li><li class="tag svelte-1tr2f1g"><a href="/blog/tags/crypto" class="svelte-1tr2f1g">#crypto</a>
     </li>
 </ul>
-  <p class="date svelte-nkifs9">Wednesday, 5 April 2023</p>
-  <hr class="svelte-nkifs9">
-  <div class="container"><h1 class="svelte-vrwgkc">Introduction</h1>
-<p class="svelte-2ra18x">Web3 has become quite a signifcant point of discussion recently. Even if you don’t hear much about the blockchain, even the modern conception of a metaverse is something largely driven by Web3 advocates. It’s interesting as a set of generally implausible solutions to complicated problems which - if implemented - would solve nothing and create new, horrifying issues.</p>
-<p class="svelte-2ra18x">Before I start arguing against Web3, I want to make my position clear. I support decentralisation. I support ownership by users and increased privacy. I simply don’t think Web3 is the right way to achieve it. In my view, Mastodon, Matrix, and IFPS are great modern examples of how these goals can be achieved without Web3. Signal is not decentralised, but due to its <a href="https://github.com/signalapp/Signal-Server/blob/main/LICENSE" class="svelte-1a7dar7">GPL-3</a> license, it could serve as a great base for a federated platform in the future. In addition, Usenet and Bittorrent show that this kind of decentralisation has always been possible. </p>
+  <p class="date svelte-1q7bpyk">Wednesday, 5 April 2023</p>
+  <hr class="svelte-1q7bpyk">
+  <div class="container"><h1 class="svelte-1eynpng">Introduction</h1>
+<p class="svelte-ybhgs2">Web3 has become quite a signifcant point of discussion recently. Even if you don’t hear much about the blockchain, even the modern conception of a metaverse is something largely driven by Web3 advocates. It’s interesting as a set of generally implausible solutions to complicated problems which - if implemented - would solve nothing and create new, horrifying issues.</p>
+<p class="svelte-ybhgs2">Before I start arguing against Web3, I want to make my position clear. I support decentralisation. I support ownership by users and increased privacy. I simply don’t think Web3 is the right way to achieve it. In my view, Mastodon, Matrix, and IFPS are great modern examples of how these goals can be achieved without Web3. Signal is not decentralised, but due to its <a href="https://github.com/signalapp/Signal-Server/blob/main/LICENSE" class="svelte-1s6z3oq">GPL-3</a> license, it could serve as a great base for a federated platform in the future. In addition, Usenet and Bittorrent show that this kind of decentralisation has always been possible. </p>
 
-<h2 class="svelte-1viqc8t">What does Web3 mean?</h2>
-<p class="svelte-2ra18x">To explain Web3, one first needs to understand Web2, and the retronym Web1. These are (mostly) arbitrary ways of delineating the history of the web. <strong>Web1</strong> is supposedly the era of static websites. Static HTML and CSS, serving predefined content from the server’s filesystem. A good example of a Web1 style site is this blog you’re on now. It is of course using modern HTML and CSS features, but the architecture is similar. These sites were fast, small, and nearly entirely uninteractive. The main purpose of Web1 sites were as personal homepages, or as a basic replacement for what was essentially a replacement for a spot in the yellow pages. </p>
-<p class="svelte-2ra18x"><strong>Web2</strong> is the supposed current era of the web, beginning with the widespread adoption of Javascript to create dynamic webpages with user interactivity. With Javascript, websites became interactive. The ability for users to contribute to content to someone else’s website became the norm. Social networks, blogging services, and comment sections became the norm. </p>
-<p class="svelte-2ra18x">Web3 is, as the name suggests, the supposed “next generation” of the web. Web3 is a vague nebulous cloud of ideas meant to demarcate an outline of a decentralized internet relying on blockchain technology, centralized control of online identity, and the empowerment of users over large tech companies. One thing you might notice is that while Web1 and Web2 describe specific technological differences between the web at different points in time that naturally emerged due to new technology, Web3 is not. Web3 essentially means: whatever you think is wrong with the web can be fixed by blockchains. It isn’t a descriptive term, its a marketing term meant to sell you on a product which will “fix” all your problems. Web3 relies on Ethereum, which is the second large cryptocurrency that emerged right after Bitcoin. </p>
-<h2 class="svelte-1viqc8t">What are blockchains?</h2>
-<p class="svelte-2ra18x">If you’ve been participating in the internet at all recently, you’ve probably heard of a <strong>blockchain</strong>. I’d imagine this blog post will mainly attract developers, but if you don’t already have an understanding of blockchains heres a simple explanation.</p>
-<p class="svelte-2ra18x">Blockchains are the backbone of cryptocurrencies, and ultiamtely Web3. A blockchain is like a digital ledger. Unlike a regular ledger, there is no single person trusted to control the ledger. When someone wants to add something to this ledger, that addition gets verified by a computer somewhere in the network. Every block also contains something called a hash of the previous block. A hash is essentially a mathematical function which takes in data and outputs some other data of a fixed length. This output will always be the same given the same input, and any change in the input will result in a different output. When someone wants to add a block to the chain, it gets verified by another computer in the network through a complicated mathematical problem. Various computers compete to solve this problem, and whichever succeeds gets some cryptocurrency as a reward. Other computers in the network can then easily check that the solution is valid, and if a consensus is reached the new block is added to the blockchain.</p>
-<p class="svelte-2ra18x">Cryptocurrencies use this technology to create and verify transactions without a single trusted person or organisation. </p>
-<h2 class="svelte-1viqc8t">Ok, but what is Web3 really?</h2>
-<p class="svelte-2ra18x">As I said in the first paragraph, Web3 is far from a defined product or idea. Instead, it encompasses a large set of ideas which are connected mostly by their reliance on blockchain. Most proponents avoid getting too specific with their definitions of Web3, as to avoid presenting any actual ideas that can be attacked.
+<h2 class="svelte-1um4xh9">What does Web3 mean?</h2>
+<p class="svelte-ybhgs2">To explain Web3, one first needs to understand Web2, and the retronym Web1. These are (mostly) arbitrary ways of delineating the history of the web. <strong>Web1</strong> is supposedly the era of static websites. Static HTML and CSS, serving predefined content from the server’s filesystem. A good example of a Web1 style site is this blog you’re on now. It is of course using modern HTML and CSS features, but the architecture is similar. These sites were fast, small, and nearly entirely uninteractive. The main purpose of Web1 sites were as personal homepages, or as a basic replacement for what was essentially a replacement for a spot in the yellow pages. </p>
+<p class="svelte-ybhgs2"><strong>Web2</strong> is the supposed current era of the web, beginning with the widespread adoption of Javascript to create dynamic webpages with user interactivity. With Javascript, websites became interactive. The ability for users to contribute to content to someone else’s website became the norm. Social networks, blogging services, and comment sections became the norm. </p>
+<p class="svelte-ybhgs2">Web3 is, as the name suggests, the supposed “next generation” of the web. Web3 is a vague nebulous cloud of ideas meant to demarcate an outline of a decentralized internet relying on blockchain technology, centralized control of online identity, and the empowerment of users over large tech companies. One thing you might notice is that while Web1 and Web2 describe specific technological differences between the web at different points in time that naturally emerged due to new technology, Web3 is not. Web3 essentially means: whatever you think is wrong with the web can be fixed by blockchains. It isn’t a descriptive term, its a marketing term meant to sell you on a product which will “fix” all your problems. Web3 relies on Ethereum, which is the second large cryptocurrency that emerged right after Bitcoin. </p>
+<h2 class="svelte-1um4xh9">What are blockchains?</h2>
+<p class="svelte-ybhgs2">If you’ve been participating in the internet at all recently, you’ve probably heard of a <strong>blockchain</strong>. I’d imagine this blog post will mainly attract developers, but if you don’t already have an understanding of blockchains heres a simple explanation.</p>
+<p class="svelte-ybhgs2">Blockchains are the backbone of cryptocurrencies, and ultiamtely Web3. A blockchain is like a digital ledger. Unlike a regular ledger, there is no single person trusted to control the ledger. When someone wants to add something to this ledger, that addition gets verified by a computer somewhere in the network. Every block also contains something called a hash of the previous block. A hash is essentially a mathematical function which takes in data and outputs some other data of a fixed length. This output will always be the same given the same input, and any change in the input will result in a different output. When someone wants to add a block to the chain, it gets verified by another computer in the network through a complicated mathematical problem. Various computers compete to solve this problem, and whichever succeeds gets some cryptocurrency as a reward. Other computers in the network can then easily check that the solution is valid, and if a consensus is reached the new block is added to the blockchain.</p>
+<p class="svelte-ybhgs2">Cryptocurrencies use this technology to create and verify transactions without a single trusted person or organisation. </p>
+<h2 class="svelte-1um4xh9">Ok, but what is Web3 really?</h2>
+<p class="svelte-ybhgs2">As I said in the first paragraph, Web3 is far from a defined product or idea. Instead, it encompasses a large set of ideas which are connected mostly by their reliance on blockchain. Most proponents avoid getting too specific with their definitions of Web3, as to avoid presenting any actual ideas that can be attacked.
 Ethereum.org lists the following as the core goals of Web3:  </p>
-<ol><li class="svelte-1tdn1yx">Web3 is decentralized: instead of large swathes of the internet controlled and owned by centralized entities, ownership gets distributed amongst its builders and users.</li>
-<li class="svelte-1tdn1yx">Web3 is permissionless: everyone has equal access to participate in Web3, and no one gets excluded.</li>
-<li class="svelte-1tdn1yx">Web3 has native payments: it uses cryptocurrency for spending and sending money online instead of relying on the outdated infrastructure of banks and payment processors.</li>
-<li class="svelte-1tdn1yx">Web3 is trustless: it operates using incentives and economic mechanisms instead of relying on trusted third-parties.</li></ol>
-<p class="svelte-2ra18x">These manifest through multiple avenues in the modern day. Here are some common ones:</p>
-<ul><li class="svelte-1tdn1yx">Payment through cryptocurrency</li>
-<li class="svelte-1tdn1yx">NFTs - certificates of ownership for assets</li>
-<li class="svelte-1tdn1yx">DeFi - normal financial services but make it crypto</li>
-<li class="svelte-1tdn1yx">dApps - Small programs that store data on the blockchain and run backend code through smart contracts<ul><li class="svelte-1tdn1yx">Smart contracts - tiny programs on the blockchain that expose a public API</li></ul></li>
-<li class="svelte-1tdn1yx">Decentralised Identifiers - web identities stored on the blockchain</li>
-<li class="svelte-1tdn1yx">Decentralized services (typically relying on some combination of the above)</li>
-<li class="svelte-1tdn1yx">Metaverses like Decentraland <a href="https://www.youtube.com/watch?v=EiZhdpLXZ8Q" class="svelte-1a7dar7">(see Dan Olson’s fantastic video)</a></li></ul>
-<h1 class="svelte-vrwgkc">Unfortunately, little of this actually makes sense</h1>
-<h2 class="svelte-1viqc8t">Not all bad - some just dubious</h2>
-<p class="svelte-2ra18x">I do like some ideas presented by Web3 advocates. First of all, smart contracts are a cool idea. Globally accessible immutable public APIs are an interesting concept, and would allow some decentralisation in a way that open source doesn’t. What practical use they have outside of Web3, I don’t know. dApps do have promise - one key idea is that because all backend code is stored on the blockchain (in theory but often not in practice), they don’t rely on a single party to be run. However, I don’t think this is different enough from an open source project to really justify them. </p>
-<p class="svelte-2ra18x">Ok, enough with what I like. Lets get to the problems.</p>
-<h2 class="svelte-1viqc8t">Cryptocurrency as currency</h2>
-<p class="svelte-2ra18x"><em>The reality is that cryptocurrency is not actually a currency.</em> The only people who take cryptocurrency for payment are people in the Web3 sphere and drug dealers. Even so, those people only take cryptocurrency as payment because they can turn it back into some form of real money - or as crypto advocates call it: fiat. </p>
-<p class="svelte-2ra18x">I have to give Ethereum <em>some</em> credit. Transaction fees have been going down, and their power consumption has decreased dramatically. However cryptocurrency is only really a currency in the same way that the money in your Steam wallet serves as currency through the ability to buy CS:GO items and then sell them on a third party marketplace. It could be argued that lack of current widespread adoption doesn’t show its not the future of money. It isn’t though.</p>
-<h3 class="svelte-16voaen">Inherently deflationary</h3>
-<p class="svelte-2ra18x">Ethereum is deflationary. For a long time, it resisted deflation, but for the past 200 days it has been solidly deflationary, with a supply deficit of about 80,000ETH. The rate at which Ethereum is “burned” to validate blocks has began to outpace the rate at which it is created through successful validation. At first blush, deflation seems like a positive. Why wouldn’t you want more money for doing nothing? However, it actually causes huge problems. Deflation incentivises saving and decentivises spending. This causes a number of issues. Firstly, it starves producers of income as people withold from purchasing products, hoping they might be cheaper at a later date. This can lead to a deflationary spiral. As demand goes down, businesses cut spending which may manifest through lay-offs. This further reduces demand. This cycle also has other impacts, because as real prices go down, the relative value of loans and debts increases. This can make it hard for debtors to make payments, leading to potential defaults and bankrupts. An economy based on Ethereum - for example - would have no central bank to defend against issues like this. </p>
-<p class="svelte-2ra18x">TODO: rework this section to make argument more clear</p>
-<h3 class="svelte-16voaen">Accessibility</h3>
-<p class="svelte-2ra18x">There are multiple reasons cryptocurrency is not accessible - primarily to those in developing countries. Cryptocurrency is expensive, complicated to get into, and places power over the network in the hands of the wealthy. </p>
-<h1 class="svelte-1q2wrb5">Transaction fees</h1>
-<p class="svelte-2ra18x">Ethereum has transaction fees, called <strong>gas</strong>. These are paid in Ethereum, and are based on a number of factors. When you want a transaction to be processed, you pay the base fee for the block and a ‘tip’. The base fee is ‘burned’ removing it from circulation, and the tip goes to the miner. The tipping is important, as it means that transaction fees are proportional to demand. </p>
-<p class="svelte-2ra18x">On average, an Ethereum transaction costs about 1$. It’s worth noting that this is an average. It can spike <strong>far</strong> higher in times of high demand. In comparison, an international money transfer using VISA has a fee of 1% with some banks charging an additional 2%. A traditional EFT usually has a fee somewhere in the 0.5% to 1.5% range. This doesn’t sound too bad though. 1$ is not that intense, and in many cases Ethereum will transact faster than an EFT. So whats the problem? </p>
-<div class="svelte-spu0i0"><p class="svelte-2ra18x">Web3 gives millions of unbanked people easy, free financial access </p>
-<p class="svelte-2ra18x">– <strong><a href="https://learn.metamask.io/lessons/what-is-web3" class="svelte-1a7dar7">Metamask: What is Web3?</a></strong></p>
+<ol><li class="svelte-1ez2gtw">Web3 is decentralized: instead of large swathes of the internet controlled and owned by centralized entities, ownership gets distributed amongst its builders and users.</li>
+<li class="svelte-1ez2gtw">Web3 is permissionless: everyone has equal access to participate in Web3, and no one gets excluded.</li>
+<li class="svelte-1ez2gtw">Web3 has native payments: it uses cryptocurrency for spending and sending money online instead of relying on the outdated infrastructure of banks and payment processors.</li>
+<li class="svelte-1ez2gtw">Web3 is trustless: it operates using incentives and economic mechanisms instead of relying on trusted third-parties.</li></ol>
+<p class="svelte-ybhgs2">These manifest through multiple avenues in the modern day. Here are some common ones:</p>
+<ul><li class="svelte-1ez2gtw">Payment through cryptocurrency</li>
+<li class="svelte-1ez2gtw">NFTs - certificates of ownership for assets</li>
+<li class="svelte-1ez2gtw">DeFi - normal financial services but make it crypto</li>
+<li class="svelte-1ez2gtw">dApps - Small programs that store data on the blockchain and run backend code through smart contracts<ul><li class="svelte-1ez2gtw">Smart contracts - tiny programs on the blockchain that expose a public API</li></ul></li>
+<li class="svelte-1ez2gtw">Decentralised Identifiers - web identities stored on the blockchain</li>
+<li class="svelte-1ez2gtw">Decentralized services (typically relying on some combination of the above)</li>
+<li class="svelte-1ez2gtw">Metaverses like Decentraland <a href="https://www.youtube.com/watch?v=EiZhdpLXZ8Q" class="svelte-1s6z3oq">(see Dan Olson’s fantastic video)</a></li></ul>
+<h1 class="svelte-1eynpng">Unfortunately, little of this actually makes sense</h1>
+<h2 class="svelte-1um4xh9">Not all bad - some just dubious</h2>
+<p class="svelte-ybhgs2">I do like some ideas presented by Web3 advocates. First of all, smart contracts are a cool idea. Globally accessible immutable public APIs are an interesting concept, and would allow some decentralisation in a way that open source doesn’t. What practical use they have outside of Web3, I don’t know. dApps do have promise - one key idea is that because all backend code is stored on the blockchain (in theory but often not in practice), they don’t rely on a single party to be run. However, I don’t think this is different enough from an open source project to really justify them. </p>
+<p class="svelte-ybhgs2">Ok, enough with what I like. Lets get to the problems.</p>
+<h2 class="svelte-1um4xh9">Cryptocurrency as currency</h2>
+<p class="svelte-ybhgs2"><em>The reality is that cryptocurrency is not actually a currency.</em> The only people who take cryptocurrency for payment are people in the Web3 sphere and drug dealers. Even so, those people only take cryptocurrency as payment because they can turn it back into some form of real money - or as crypto advocates call it: fiat. </p>
+<p class="svelte-ybhgs2">I have to give Ethereum <em>some</em> credit. Transaction fees have been going down, and their power consumption has decreased dramatically. However cryptocurrency is only really a currency in the same way that the money in your Steam wallet serves as currency through the ability to buy CS:GO items and then sell them on a third party marketplace. It could be argued that lack of current widespread adoption doesn’t show its not the future of money. It isn’t though.</p>
+<h3 class="svelte-110qqxh">Inherently deflationary</h3>
+<p class="svelte-ybhgs2">Ethereum is deflationary. For a long time, it resisted deflation, but for the past 200 days it has been solidly deflationary, with a supply deficit of about 80,000ETH. The rate at which Ethereum is “burned” to validate blocks has began to outpace the rate at which it is created through successful validation. At first blush, deflation seems like a positive. Why wouldn’t you want more money for doing nothing? However, it actually causes huge problems. Deflation incentivises saving and decentivises spending. This causes a number of issues. Firstly, it starves producers of income as people withold from purchasing products, hoping they might be cheaper at a later date. This can lead to a deflationary spiral. As demand goes down, businesses cut spending which may manifest through lay-offs. This further reduces demand. This cycle also has other impacts, because as real prices go down, the relative value of loans and debts increases. This can make it hard for debtors to make payments, leading to potential defaults and bankrupts. An economy based on Ethereum - for example - would have no central bank to defend against issues like this. </p>
+<p class="svelte-ybhgs2">TODO: rework this section to make argument more clear</p>
+<h3 class="svelte-110qqxh">Accessibility</h3>
+<p class="svelte-ybhgs2">There are multiple reasons cryptocurrency is not accessible - primarily to those in developing countries. Cryptocurrency is expensive, complicated to get into, and places power over the network in the hands of the wealthy. </p>
+<h4 class="svelte-nnipvi">Transaction fees</h4>
+<p class="svelte-ybhgs2">Ethereum has transaction fees, called <strong>gas</strong>. These are paid in Ethereum, and are based on a number of factors. When you want a transaction to be processed, you pay the base fee for the block and a ‘tip’. The base fee is ‘burned’ removing it from circulation, and the tip goes to the miner. The tipping is important, as it means that transaction fees are proportional to demand. </p>
+<p class="svelte-ybhgs2">On average, an Ethereum transaction costs about 1$. It’s worth noting that this is an average. It can spike <strong>far</strong> higher in times of high demand. In comparison, an international money transfer using VISA has a fee of 1% with some banks charging an additional 2%. A traditional EFT usually has a fee somewhere in the 0.5% to 1.5% range. This doesn’t sound too bad though. 1$ is not that intense, and in many cases Ethereum will transact faster than an EFT. So whats the problem? </p>
+<div class="svelte-68ppcp"><p class="svelte-ybhgs2">Web3 gives millions of unbanked people easy, free financial access </p>
+<p class="svelte-ybhgs2">– <strong><a href="https://learn.metamask.io/lessons/what-is-web3" class="svelte-1s6z3oq">Metamask: What is Web3?</a></strong></p>
 </div>
-<h1 class="svelte-1q2wrb5">Purchasing power</h1>
-<p class="svelte-2ra18x">Not only is this a laughable claim, it actually succintly highlights a big problem with cryptocurrency. Cryptocurrencies do not function as international currency because they are built around the financial needs of those in rich countries. As an ‘international currency’ it does not account for the reality of purchasing power. A great example of a country which could <em>really</em> use an alternate currency and finance system is Zimbabwe. In Zimbabwe, the median salary (for those who are employed) is 253$ a month. The U.S dollar is <strong>far</strong> stronger than many currencies, and transaction fees that measured in USD, meant to be affordable for citizens of rich countries will never allow Ethereum to act as a source of financial upliftment.</p>
-<h1 class="svelte-1q2wrb5">Validation</h1>
-<p class="svelte-2ra18x">Furthermore, block validation - the backbone of cryptocurrency is also built around the developing world. Ethereum transitioned from proof of work (traditional mining requiring large servers) to proof of stake (in which validators “stake” Ethereum). This reduced the electricity consumption of the Ethereum network  from about about the entire energy production of Finland (50-75TWh/year!!!), to a far more reasonable 2600MWh/year. In addition, it reduced the cost required to become a validator. This was a very sensible decision, but there cost problem is far from solved. <strong>The cost to become an Ethereum validator is as of writing: 60000$.</strong></p>
-<p class="svelte-2ra18x">Most people within the rich world would not be able to eat that cost, let alone those in developing countries. Someone from Zimbabwe - our previous example - would only need to save up 100% of their income for 20 years to become an Ethereum validator. The common counter to this is <strong>staking pools</strong>. </p>
-<p class="svelte-2ra18x">This is - similar to the mining pools that came before - an attempt to tackle the issue that consensus mechanisms used for validation inherently reward centralisation. The idea is that users can collectively stake Ethereum and then split the rewards. Once again, a small problem. You need Ethereum. Staking pools also tend to take a flat rate cut of profits made through validating through a staking pool. Someone in a developing country who wished to join a staking pool would need to buy ETH, and would only be able to afford a paltry amount, find a staking pool, stake it, and then receive rewards that are just as small as the amount of ETH they could afford initially. In addition it requires consistent internet access.</p>
-<h1 class="svelte-1q2wrb5">Internet access</h1>
-<p class="svelte-2ra18x">Only about 60% of the global population are active internet users (have used the internet in the last 3 months). I’ll leave it as an exercise to the reader to take a guess at the intersection of unbanked people and those without regular internet access.</p>
-<h3 class="svelte-16voaen">Decentralisation</h3>
-<p class="svelte-2ra18x"><a href="https://www.notboring.co/p/the-web3-debate?s=r" class="svelte-1a7dar7">In a blog post</a> Packy McCormick says that the argument against Web3 nearly always relies too heavily on debating degrees of decentralisation: </p>
-<div class="svelte-spu0i0"><p class="svelte-2ra18x">They’re trying to win the definition battle. Instead of a more vague “Web3 is good,” they tightened the focus to a more easily winnable, “Web3 is more centralized than it appears from the outside, which is bad.” </p>
+<h4 class="svelte-nnipvi">Purchasing power</h4>
+<p class="svelte-ybhgs2">Not only is this a laughable claim, it actually succintly highlights a big problem with cryptocurrency. Cryptocurrencies do not function as international currency because they are built around the financial needs of those in rich countries. As an ‘international currency’ it does not account for the reality of purchasing power. A great example of a country which could <em>really</em> use an alternate currency and finance system is Zimbabwe. In Zimbabwe, the median salary (for those who are employed) is 253$ a month. The U.S dollar is <strong>far</strong> stronger than many currencies, and transaction fees that measured in USD, meant to be affordable for citizens of rich countries will never allow Ethereum to act as a source of financial upliftment.</p>
+<h4 class="svelte-nnipvi">Validation</h4>
+<p class="svelte-ybhgs2">Furthermore, block validation - the backbone of cryptocurrency is also built around the developing world. Ethereum transitioned from proof of work (traditional mining requiring large servers) to proof of stake (in which validators “stake” Ethereum). This reduced the electricity consumption of the Ethereum network  from about about the entire energy production of Finland (50-75TWh/year!!!), to a far more reasonable 2600MWh/year. In addition, it reduced the cost required to become a validator. This was a very sensible decision, but there cost problem is far from solved. <strong>The cost to become an Ethereum validator is as of writing: 60000$.</strong></p>
+<p class="svelte-ybhgs2">Most people within the rich world would not be able to eat that cost, let alone those in developing countries. Someone from Zimbabwe - our previous example - would only need to save up 100% of their income for 20 years to become an Ethereum validator. The common counter to this is <strong>staking pools</strong>. </p>
+<p class="svelte-ybhgs2">This is - similar to the mining pools that came before - an attempt to tackle the issue that consensus mechanisms used for validation inherently reward centralisation. The idea is that users can collectively stake Ethereum and then split the rewards. Once again, a small problem. You need Ethereum. Staking pools also tend to take a flat rate cut of profits made through validating through a staking pool. Someone in a developing country who wished to join a staking pool would need to buy ETH, and would only be able to afford a paltry amount, find a staking pool, stake it, and then receive rewards that are just as small as the amount of ETH they could afford initially. In addition it requires consistent internet access.</p>
+<h4 class="svelte-nnipvi">Internet access</h4>
+<p class="svelte-ybhgs2">Only about 60% of the global population are active internet users (have used the internet in the last 3 months). I’ll leave it as an exercise to the reader to take a guess at the intersection of unbanked people and those without regular internet access.</p>
+<h3 class="svelte-110qqxh">Decentralisation</h3>
+<p class="svelte-ybhgs2"><a href="https://www.notboring.co/p/the-web3-debate?s=r" class="svelte-1s6z3oq">In a blog post</a> Packy McCormick says that the argument against Web3 nearly always relies too heavily on debating degrees of decentralisation: </p>
+<div class="svelte-68ppcp"><p class="svelte-ybhgs2">They’re trying to win the definition battle. Instead of a more vague “Web3 is good,” they tightened the focus to a more easily winnable, “Web3 is more centralized than it appears from the outside, which is bad.” </p>
 </div>
-<p class="svelte-2ra18x">His blog post is well worth a read if you want the opinion of someone who has views in opposition to mine. However, I think a discussion of decentralisation is necessary. It is an oft-touted benefit of Web3, after all. First of all, Web3 is more decentralised than the current web. That much is clear. However, I believe Web3 is only the correct answer to the question of decentralising a platform in a very limited number of cases, and for that reason it cannot be the <em>future of the web</em>, or even the <em>future of decentralisation</em>. Ethereum is not decentralised. </p></div>
+<p class="svelte-ybhgs2">His blog post is well worth a read if you want the opinion of someone who has views in opposition to mine. However, I think a discussion of decentralisation is necessary. It is an oft-touted benefit of Web3, after all. First of all, Web3 is more decentralised than the current web. That much is clear. However, I believe Web3 is only the correct answer to the question of decentralising a platform in a very limited number of cases, and for that reason it cannot be the <em>future of the web</em>, or even the <em>future of decentralisation</em>. Ethereum is not decentralised. </p></div>
 </article></div>
 
-  <div class="footer svelte-ua5wkf"><div class="svelte-4cfqm4"><p class="me svelte-4cfqm4">Made with <span class="svelte-4cfqm4">♥</span> by Emma Alexandria
+  <div class="footer svelte-adx4fm"><div class="svelte-78jua6"><p class="me svelte-78jua6">Made with <span class="svelte-78jua6">♥</span> by Emma Alexandria
   </p>
-  <p class="license svelte-4cfqm4">Writing and assets on this page are CC BY | Code on this page is under the
+  <p class="license svelte-78jua6">Writing and assets on this page by me are CC BY | Code on this page is under the
     MIT license unless stated otherwise
   </p>
 </div></div></div>
@@ -127,7 +153,7 @@ Ethereum.org lists the following as the core goals of Web3:  </p>
 			
 			<script>
 				{
-					__sveltekit_1upbv0x = {
+					__sveltekit_r8fnz3 = {
 						env: {},
 						base: new URL("..", location).pathname.slice(0, -1),
 						element: document.currentScript.parentElement
@@ -136,10 +162,10 @@ Ethereum.org lists the following as the core goals of Web3:  </p>
 					const data = [null,null];
 
 					Promise.all([
-						import("../_app/immutable/entry/start.d10e505a.js"),
-						import("../_app/immutable/entry/app.1db11272.js")
+						import("../_app/immutable/entry/start.ff299a31.js"),
+						import("../_app/immutable/entry/app.3f26db23.js")
 					]).then(([kit, app]) => {
-						kit.start(app, __sveltekit_1upbv0x.element, {
+						kit.start(app, __sveltekit_r8fnz3.element, {
 							node_ids: [0, 5],
 							data,
 							form: null,
